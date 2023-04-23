@@ -2,7 +2,11 @@
   "name": "@bdub/reactnative-sprite-animator",
   "description": "A simple sprite sheet animator component for React Native",
   "author": "bdubstudio",
+  "license": "MIT",
   "keywords": [
+    "react-native",
+    "ios",
+    "androind",
     "reactnative",
     "sprite",
     "spritesheet",
