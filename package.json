@@ -1,12 +1,27 @@
 {
-  "name": "reactnative-sprite-animator",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "@bdub/reactnative-sprite-animator",
+  "description": "A simple sprite sheet animator component for React Native",
+  "author": "bdubstudio",
+  "keywords": [
+    "reactnative",
+    "sprite",
+    "spritesheet",
+    "animator",
+    "animation"
+  ],
+  "version": "1.0.1",
+  "private": false,
+  "main": "src/lib/index.js",
+  "module": "src/lib/index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin-t-wilson/bdub-reactnative-sprite-animator.git"
   },
   "dependencies": {
     "expo": "~48.0.11",
@@ -15,7 +30,7 @@
     "react-native": "0.71.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@babel/core": "^7.20.0",
+    "metro-react-native-babel-preset": "^0.76.2"
+  }
 }
